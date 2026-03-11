@@ -14,7 +14,7 @@ const TEAMS = [
     players: [
       { id: 1, name: "Exo", real: "…….", age: 17, region: "🇬🇧 UK", role: "Anchor / IGL", achievements: [], joined: "2025" },
       { id: 2, name: "Mygod", real: "…….", age: 22, region: "🇵🇹 Portugal", role: "Support / Entry", achievements: [], joined: "2025" },
-    ]
+      { id: 3, name: "Konur", real: "…….", age: 19, region: "🇬🇧 UK", role: "Manager", achievements: [], joined: "2025" },]
   },
 ];
 
