@@ -12,10 +12,26 @@ const TEAMS = [
     wins: 0,
     losses: 0,
     players: [
-      { id: 1, name: "Exo", real: "…….", age: 17, region: "🇬🇧 UK", role: "Anchor / IGL", achievements: [], joined: "2025" },
-      { id: 2, name: "Mygod", real: "…….", age: 22, region: "🇵🇹 Portugal", role: "Support / Entry", achievements: [], joined: "2025" },
-      { id: 3, name: "Konur", real: "…….", age: 19, region: "🇬🇧 UK", role: "Manager", achievements: [], joined: "2025" },]
+      { id: 1, name: "Exo", real: "…….", age: 19, region: "UK", role: "Anchor / IGL", achievements: [], joined: "2025" },
+      { id: 2, name: "Mygod", real: "…….", age: 22, region: "Portugal", role: "Support / Entry", achievements: [], joined: "2025" },
+      { id: 3, name: "Konur", real: "…….", age: 19, region: "UK", role: "Manager", achievements: [], joined: "2025" },]
   },
+  {
+     id: 2,
+     name: "Absolvte R6M",
+     tag: "AB",
+     region: "Europe",
+     founded: "2026",
+     game: "Rainbow Six Mobile",
+     color: "#ffffff",
+     wins: 0,
+     losses: 0, 
+     players: [
+      { id: 4, name: "Mrbom", real: "Pasha", age: 19, region: "Russia", role: "IGL / Support", achievements: [], joined: "2024" },
+
+      
+     ] 
+    },
 ];
 
 export default function App() {
