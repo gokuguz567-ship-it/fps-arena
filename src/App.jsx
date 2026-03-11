@@ -3,49 +3,17 @@ import { useState } from "react";
 const TEAMS = [
   {
     id: 1,
-    name: "Eclipse",
-    tag: "ECL",
-    region: "North America",
-    founded: 2021,
-    game: "Valorant",
-    color: "#e63946",
-    wins: 48,
-    losses: 12,
-    players: [
-      { id: 1, name: "NightStalker", real: "Jake Morrison", age: 22, region: "🇺🇸 USA", role: "Duelist", achievements: ["VCT Champions 2024", "Masters Tokyo Top 4", "NA LCQ Winner"], joined: "Jan 2022" },
-      { id: 2, name: "CryptoFrag", real: "Leon Bauer", age: 24, region: "🇩🇪 Germany", role: "Controller", achievements: ["Masters Tokyo Top 4", "EMEA Finalist 2023"], joined: "Mar 2022" },
-      { id: 3, name: "NullVector", real: "Tyler Chan", age: 20, region: "🇨🇦 Canada", role: "Initiator", achievements: ["VCT Americas 2024", "NA LCQ Winner"], joined: "Jun 2023" },
-    ]
-  },
-  {
-    id: 2,
-    name: "Phantom",
-    tag: "PHT",
+    name: "Stamina R6M",
+    tag: "STM",
     region: "Europe",
-    founded: 2020,
-    game: "CS2",
-    color: "#ffffff",
-    wins: 61,
-    losses: 19,
-    players: [
-      { id: 4, name: "VoidReaper", real: "Erik Lindqvist", age: 26, region: "🇸🇪 Sweden", role: "AWPer", achievements: ["ESL Pro League S18", "BLAST Premier World Final", "Major Top 8 x3"], joined: "Feb 2021" },
-      { id: 5, name: "IronSight", real: "Minjun Cho", age: 23, region: "🇰🇷 South Korea", role: "Entry Fragger", achievements: ["ESL Pro League S18", "IEM Katowice 2024"], joined: "Aug 2022" },
-      { id: 6, name: "BinaryKill", real: "Tom Nguyen", age: 21, region: "🇦🇺 Australia", role: "Rifler", achievements: ["BLAST Premier Spring 2024"], joined: "Jan 2023" },
-    ]
-  },
-  {
-    id: 3,
-    name: "Nexus",
-    tag: "NXS",
-    region: "Latin America",
-    founded: 2022,
-    game: "Valorant",
+    founded: 2025,
+    game: "Rainbow Six Mobile",
     color: "#e63946",
-    wins: 33,
-    losses: 21,
+    wins: 0,
+    losses: 0,
     players: [
-      { id: 7, name: "SilentByte", real: "Gabriel Souza", age: 19, region: "🇧🇷 Brazil", role: "Duelist", achievements: ["VCT Americas Rookie of the Year", "LCQ LATAM 2024"], joined: "Apr 2022" },
-      { id: 8, name: "GhostLine", real: "Antoine Dubois", age: 25, region: "🇫🇷 France", role: "Sentinel", achievements: ["Masters Shanghai Top 6", "VCT EMEA 2023"], joined: "Sep 2022" },
+      { id: 1, name: "Exo", real: "…….", age: 17, region: "🇬🇧 UK", role: "Anchor / IGL", achievements: [], joined: "2025" },
+      { id: 2, name: "Mygod", real: "…….", age: 22, region: "🇵🇹 Portugal", role: "Support / Entry", achievements: [], joined: "2025" },
     ]
   },
 ];
